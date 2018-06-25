@@ -1,0 +1,238 @@
+body{
+    margin:0;
+    font-family: Verdana;
+}
+/* definindo fonte e margem */
+
+header{
+    background-color: #2b3392;
+    padding: 0.5%;
+}
+/* cor do fundo do site */
+
+.ipiranga_logo{
+    width:15%;
+    height: 15%;
+    margin: 0.5% 0 0 1.0%;
+}
+.logo_banner{
+    position: absolute;
+    margin: 4% 0 0 62%;
+    width:30%;
+}
+.ipiranga_logo_footer {
+    width:10%;
+    height: 10%;
+    float: left;
+}
+.logos{
+    width:3%;
+    float: right;
+    margin:0.3% 0.5% 0 0.5%;
+}
+/* configuração do tamanho do logo */
+.nav_menu a{
+    text-decoration: none;
+    padding: 6px;
+    color: white;
+}
+.nav_menu a:hover{
+    background-color: white;
+    border-radius: 6px;
+    color: #2b3392;
+}
+.selecionado{
+    background-color: white;
+    border-radius: 6px;
+    color: #2b3392 !important;
+}
+/* personalização do a no menu */
+
+.sobre_img{
+    width:35%; 
+    height:180px;
+    float: right;
+    margin: 1%;
+    border-radius: 6px;
+}
+.sobre_img_2{
+    width:35%; 
+    height:180px;
+    float: left;
+    margin: 1% 1% 1% 0;
+    border-radius: 6px;
+}
+
+.nav_menu{
+    font-size: 150%;
+    padding: 0.5%;
+    border-radius: 10px;
+    float: right;
+
+}
+/* menu de link alinhado a direita  */
+
+.nav_texto{
+    margin: 1.5% 10% 0 0;
+    font-size: 150%;
+}
+/* personalização do texto na nav */
+
+.img_topo{
+    width:100%;
+}
+/* banner do site */
+
+hr {
+    margin: 4% 0 0 0;
+    background-color: #2b3392;
+    height: 3px;
+  }
+/* traço na pagina */
+
+.div_destaque{
+    width: 74%;
+    margin: 0 0 0 13%;
+}
+/* personalização da div */
+
+.h1_destaque{
+    font-size: 250%;
+    color:#2b3392;
+}
+/* personalização do h1 */
+
+.div_img{
+ width: 23%;
+ float: left;
+ margin:1.5% 1%;
+}
+/* personalização da div onde vai ficar a imagem */
+
+.div_img img{
+    height: 250px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color:gray;
+    width: 100%;
+  }
+/* tamanho da imagem */
+
+.clear{
+    clear: both;
+}
+/* usado para fechar o float */
+
+.n_produto{
+    font-size: 130%;
+    text-align: center;
+    margin: 2% 0 0 0;
+}
+/* nome dos produtos */
+
+.preço{
+    font-size: 160%;
+    text-align: center;
+    margin: 2% 0 0 0;
+}
+/* preço dos produtos */
+
+
+.ofer_img{
+    border-radius: 8px;
+    width: 20%;
+    margin: 2% 0 2% 40%;
+}
+/* alinhamento do botão oferta */
+
+footer p{
+    text-align: center;
+    font-size: 100%;
+    margin: 1% 8% 0 0;  
+   }
+   
+footer{
+    background-color: #2b3392;
+    color: white;
+    padding: 1%;
+}
+/* configuração do footer */
+.loja2{
+    width: 48%;
+    margin: 1%;
+    float: right;
+}
+/* configuração do tamanho da imagem */
+
+.img_loja2{
+    width: 98%;
+}
+/* tamanho da imagem */
+
+.loja1{
+    width: 48%;
+    margin: 1%;
+    float: right;
+}
+/* configuração do tamanho da imagem */
+
+.img_loja1{
+    width: 98%;
+}
+/* tamanho da imagem */
+
+.sobre_div{
+    width: 28%;
+    height: 285px;
+    float: left;
+    margin: 1% 2.5% 2% 2.5%;
+    background-color: #2b3392;
+    text-align: left;
+    border-radius: 20px;
+    color:white ;
+}
+
+.sobre_div h1{
+    text-align: center;
+}
+/* alinhamento do texto perto do footer */
+
+.p_sobre{
+    margin: 0 0 2% 4%;
+}
+/* margem do texto no topico da pagina sobre */
+.formulario{
+    width: 50%;
+    float: left;
+}
+button{
+    width: 17%;
+    height:40px;
+    background-color: #2b3392;
+    color: white;
+    border-radius: 20px;
+    margin: 1% 0 1% 0;
+}
+input{
+    border-radius: 6px;
+    width: 90%;
+    height: 20px;
+    margin: 1% 0 1% 0;
+}
+select{
+    border-radius: 10px;
+    width: 90%;
+    height: 30px;
+    margin: 1% 0 1% 0;
+}
+textarea{
+    border-radius: 10px;
+    width: 90%;
+    height: 185px;
+    margin: 2% 0 1% 0;
+}
+footer p{
+    text-align: center;
+    font-size: 100%;
+    margin: 1% 8% 0 0;  
+   }   
